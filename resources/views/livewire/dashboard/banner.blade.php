@@ -1,4 +1,4 @@
-<div class="relative p-4 mb-8 overflow-hidden bg-indigo-200 rounded-sm dark:bg-indigo-500 sm:p-6">
+<div class="relative p-4 mb-8 overflow-hidden rounded-sm  bg-white shadow-lg dark:bg-[#182235] sm:p-6">
 
     <!-- Background illustration -->
     <div class="absolute top-0 right-0 hidden mr-16 -mt-4 pointer-events-none xl:block" aria-hidden="true">
@@ -8,12 +8,12 @@
                 <path id="welcome-e" d="M40 0l40 80-40-12.5L0 80z" />
                 <path id="welcome-g" d="M40 0l40 80-40-12.5L0 80z" />
                 <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="welcome-b">
-                    <stop stop-color="#A5B4FC" offset="0%" />
-                    <stop stop-color="#818CF8" offset="100%" />
+                    <stop stop-color="#fd906c" offset="0%" />
+                    <stop stop-color="#ff4000" offset="100%" />
                 </linearGradient>
                 <linearGradient x1="50%" y1="24.537%" x2="50%" y2="100%" id="welcome-c">
                     <stop stop-color="#4338CA" offset="0%" />
-                    <stop stop-color="#6366F1" stop-opacity="0" offset="100%" />
+                    <stop stop-color="#ff4000" stop-opacity="0" offset="100%" />
                 </linearGradient>
             </defs>
             <g fill="none" fill-rule="evenodd">
@@ -45,7 +45,7 @@
     <!-- Content -->
     <div class="relative">
         <h1 class="mb-1 text-2xl font-bold md:text-3xl text-slate-800 dark:text-slate-100">Good afternoon, {{ Auth::user()->name }} 👋</h1>
-        <p class="dark:text-indigo-200">Here is what's happening with your projects today:</p>
+        <p class="text-slate-800 dark:text-slate-100">Here is what's happening today:</p>
     </div>
 
 </div>

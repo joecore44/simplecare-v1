@@ -1,4 +1,4 @@
-<div class="relative flex items-center justify-between px-4 py-1 text-white bg-indigo-500 rounded-md shadow-md">
+<div class="relative flex items-center justify-between px-4 py-1 text-white bg-orange-500 rounded-md shadow-md">
     <div>
         <p class="text-lg font-medium">Hours Worked</p>
         <p class="text-sm">This Pay Period: <span class="font-semibold">22</span></p>

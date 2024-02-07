@@ -41,7 +41,7 @@
                     <div>
                         <div class="flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
                             <!-- Logo -->
-                            <livewire:logo />
+                            <livewire:logo color="#000000"/>
                         </div>
                     </div>
 

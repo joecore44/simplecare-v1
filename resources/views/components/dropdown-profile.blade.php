@@ -36,13 +36,13 @@
         </div>
         <ul>
             <li>
-                <a class="flex items-center px-3 py-1 text-sm font-medium text-indigo-500 hover:text-indigo-600 dark:hover:text-indigo-400" href="{{ route('profile.show') }}" @click="open = false" @focus="open = true" @focusout="open = false" wire:navigate>Settings</a>
+                <a class="flex items-center px-3 py-1 text-sm font-medium text-orange-500 hover:text-orange-600 dark:hover:text-orange-400" href="{{ route('profile.show') }}" @click="open = false" @focus="open = true" @focusout="open = false" wire:navigate>Settings</a>
             </li>
             <li>
                 <form method="POST" action="{{ route('logout') }}" x-data>
                     @csrf
 
-                    <a class="flex items-center px-3 py-1 text-sm font-medium text-indigo-500 hover:text-indigo-600 dark:hover:text-indigo-400"
+                    <a class="flex items-center px-3 py-1 text-sm font-medium text-orange-500 hover:text-orange-600 dark:hover:text-orange-400"
                         href="{{ route('logout') }}"
                         @click.prevent="$root.submit();"
                         @focus="open = true"
